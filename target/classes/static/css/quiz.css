@@ -10,14 +10,14 @@ body {
 }
 
 h1 {
-	font-size: 22px;
+	font-size: 40px;
 	text-align: center;
 	padding: 15px 25px;
 	border-radius: 20px;
 }
 
 .ques-box {
-	width: 100%;
+	width: 120%;
 	max-width: 800px;
 	padding: 15px 25px;
 	margin: 50px auto 0 auto;
@@ -27,10 +27,11 @@ h1 {
 .option {
 	display: flex;
 	flex-direction: row;
+	font-size: 20px;
 }
 
 .title {
-	font-size: 22px;
+	font-size: 30px;
 	font-weight: 500;
 	color: black;
 }
@@ -38,11 +39,6 @@ h1 {
 .option p {
 	margin-left: 15px;
 	position: relative;
-	margin-top: -6px;
+	margin-top: 4px;
 }
 
-footer {
-	height: 80px;
-	text-align: center;
-	line-height: 80px;
-}
