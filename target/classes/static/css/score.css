@@ -16,6 +16,7 @@ body {
 table {
 	width: 100%;
 	text-align: center;
+	border-radius: 20px;
 }
 
 tr {
@@ -26,8 +27,9 @@ th, td {
 	padding: 10px;
 }
 
-footer {
-	height: 80px;
-	text-align: center;
-	line-height: 80px;
+h3{
+    font-size: 30px;
+    border-radius: 20px;
+    color: white;
 }
+
