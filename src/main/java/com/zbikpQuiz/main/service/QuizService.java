@@ -32,7 +32,7 @@ public class QuizService {
 		
 		Random random = new Random();
 		
-		for(int i=0; i<5; i++) {
+		for(int i=0; i<10; i++) {
 			int rand = random.nextInt(allQues.size());
 			qList.add(allQues.get(rand));
 			allQues.remove(rand);

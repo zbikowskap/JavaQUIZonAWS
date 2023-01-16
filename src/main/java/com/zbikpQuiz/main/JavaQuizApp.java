@@ -11,7 +11,7 @@ import javax.sql.DataSource;
 @SpringBootApplication
 public class JavaQuizApp implements CommandLineRunner {
 
-	//I implements CommandLineRunner to push auto CREATE TABLE hibernate, then FLYWAY init
+	//I implements CommandLineRunner to push auto CREATE TABLE hibernate first, before FLYWAY init
 	//without override first run flyway and fail without table
 	@Autowired
 	DataSource dataSource;
