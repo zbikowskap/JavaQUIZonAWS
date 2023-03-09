@@ -11,6 +11,7 @@
 	<groupId>com.zbikpQuiz</groupId>
 	<artifactId>JavaQuizApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>JavaQuizApp</name>
 	<description>JAVA QUIZ</description>
 	<properties>
