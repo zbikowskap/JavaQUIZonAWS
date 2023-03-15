@@ -11,19 +11,21 @@
 	<groupId>com.zbikpQuiz</groupId>
 	<artifactId>JavaQuizApp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+
 	<name>JavaQuizApp</name>
 	<description>JAVA QUIZ</description>
 	<properties>
+
 		<java.version>15</java.version>
 		<tomcat.version>9.0.44</tomcat.version>
+		<maven.test.skip>true</maven.test.skip>
 	</properties>
 
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-data-jpa</artifactId>
-		</dependency>
+	 	</dependency>
 
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
@@ -51,14 +53,11 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.flywaydb</groupId>
-			<artifactId>flyway-core</artifactId>
+			<groupId>mysql</groupId>
+			<artifactId>mysql-connector-java</artifactId>
+
 		</dependency>
-		<dependency>
-			<groupId>com.h2database</groupId>
-			<artifactId>h2</artifactId>
-			<scope>runtime</scope>
-		</dependency>
+
 	</dependencies>
 
 	<build>

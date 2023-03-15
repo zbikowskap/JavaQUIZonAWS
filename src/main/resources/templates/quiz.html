@@ -16,7 +16,7 @@
 	<div th:insert="navbar.html :: navbar"></div>
 	
 	<div class="container py-5 px-4">
-		<h1 class="bg-info text-white">ONE CHOICE QUIZ</h1>
+		<h1 class="bg-info text-white">ONLY ONE CHOICE QUIZ</h1>
 		
 		<form action="submit" method="POST" th:object=${qForm}>
 			<div class="ques-box bg-light text-dark" th:each="ques, i: ${qForm.questions}">
